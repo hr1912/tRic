@@ -1,0 +1,21 @@
+{% extends "tric/base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% load staticfiles %}
+{% block content %}
+    <!-- <div class="bs-docs-section">
+        <h2 class="page-header"><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;Work Flow</h2>
+        <img src="{% static 'image/document-picture.png' %}" width="1140px"/>
+    </div> -->
+    <div class="bs-docs-section">
+        <h3 id="quant_snor" style="color: #ca2015">tRNAs Quantification</h3>
+        <p style="text-align: justify; font-size: 18px;">
+            tRNA annotation downloaded from UCSC Genome Browser (hg19), and miRNAseq data of 16,591 samples downloaded from TCGA’s data. The duplicated samples and lower-quality samples with fewer than 50% that passed quality control or fewer than 80% of reads that mapped to the human genome were filtered out. We obtained 9,931 patient tumor samples across 31 cancer types and their related 663 non-tumor tissue samples for use in the analyses. We then mapped reads to tRNA genes and quantified them using the trimmed mean of M values (TMM) method. tRNAs with an average TMM ≥ 1 across samples in each cancer type were defined as detectable tRNAs, followed by log2 transformation. We then merged tRNA expression at the codon and amino acid levels based on Watson-Crick match. tRNA profiles were deposited in <a href="https://www.synapse.org" target="_blank">Synapse</a> (syn8367000).
+        </p>
+    </div>
+    <div class="bs-docs-section">
+        <h3 id="clinical_analysis" style="color: #ca2015">Clinical analysis</h3>
+        <p style="text-align: justify; font-size: 18px;">
+            Clinical information were obtained from the TCGA data portal. We identify expression alteration of tRNA between paired tumor and normal samples, among established tumor subtypes or tumor stages, including tumor subtypes, disease stage, and patient survival. <strong>Groups with fewer than five samples were excluded from the analysis</strong>. For cancer types with survival time available, we performed the univariate Cox test to examine whether the tRNA was significantly correlated with patient 5-year survival. For each significant tRNA, tRNAs were dichotomized at the median expression level, and the Kaplan-Meier curves was plotted to represent the average survival time of each groups and log-rank test was used to examine the difference of the survival time of each groups.
+        </p>
+    </div>
+{% endblock %}

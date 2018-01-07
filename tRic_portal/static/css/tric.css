@@ -1,0 +1,234 @@
+.fixed-height-panel{
+    overflow-y:auto;
+    max-height: 500px;
+}
+nav#bs-navbar ul.navbar-nav li{
+    font-size:20px;
+}
+a.navbar-brand{
+    font-size:25px;
+}
+div.panel-danger{
+    background-color: #eff3f7;
+    border: 1px solid #eff3f7;
+}
+div.panel-danger .panel-body{
+    font-family: "Benton Sans Cond","DIN Alternate","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #175d8a;
+}
+div.bs-docs-section p.lead{
+    font-size: 16px;
+    text-align: justify;
+}
+div.bs-callout-info h4{
+    color:#5cb85c;
+}
+div.bs-callout-info dl dd table td{
+    width:100px;
+}
+div.bs-callout-info dl dd {
+    word-wrap:break-word;
+    word-break:break-all;
+}
+span.glyphicon-question-sign{
+    margin: 0 3px;
+    padding: 2px;
+    background-color: purple;
+    color:white;
+}
+span.glyphicon-color{
+    margin: 0 3px;
+    padding: 2px;
+    background-color: purple;
+    color:white;
+}
+footer.bs-docs-footer{
+    padding:20px 0;
+    margin-top:30px;
+}
+address{
+    padding: 20px 10px;
+}
+div.address{
+    padding: 30px 10px;
+}
+h2.page-header{
+    margin: 20px 0;
+}
+div.bs-docs-section{
+    margin-bottom:20px;
+}
+div.slider {
+    display: none;
+}
+table.dataTable tbody td.no-padding {
+    padding: 0;
+}
+div.slider img{
+    width: 100%;
+}
+.panel-body{
+    padding:0px;
+}
+
+.dl-horizontal dt{
+    /*margin-left: 25px;*/
+    width: 25px;
+}
+
+.dl-horizontal dd{
+    margin-left: 40px;
+}
+
+/*progress bar*/
+#progressbar {
+  display: none;
+}
+
+.ui-progressbar{
+    position: relative;
+}
+
+.progress-label {
+    position: absolute;
+    left: 50%;
+    font-size: large;
+    top: 8px;
+    color: #000000;
+}
+#progressbar .ui-progressbar-value {
+  background-color: #ffffff;
+  background: #008080;
+}
+.ui-tabs .ui-tabs-nav
+{
+    background: white;
+    float: none;
+    text-align: center;
+}
+
+.ui-tabs .ui-tabs-panel
+{
+    background: white;
+}
+.ui-tabs .ui-tabs-nav li {
+    font-weight: bold !important;
+    color: white;
+}
+.ui-tabs .ui-tabs-nav li a {
+    font-weight: bold !important;
+    color: white;
+}
+
+
+/*analysis tabs styles*/
+#tabs .analysis_div.analysis_rnaexpr.ui-tabs-panel,
+#tabs .analysis_rnaexpr.analysis_tab.ui-state-active {
+    background: white;
+
+}
+
+#tabs .analysis_div.analysis_clinical.ui-tabs-panel,
+#tabs .analysis_clinical.analysis_tab.ui-state-active {
+  background: white;
+}
+
+#tabs .analysis_div.analysis_genomic.ui-tabs-panel,
+#tabs .analysis_genomic.analysis_tab.ui-state-active {
+  background: white;
+}
+
+#tabs .analysis_rnaexpr.ui-state-default {
+  background: #ce4844;
+}
+
+#tabs .analysis_clinical.ui-state-default {
+  background: #463265;
+}
+
+#tabs .analysis_genomic.ui-state-default {
+  background: #1b809e;
+}
+
+#tabs li.analysis_rnaexpr.analysis_tab.ui-state-active a {
+  font-weight: bold;
+  color: #ce4844;
+}
+
+#tabs li.analysis_clinical.analysis_tab.ui-state-active a {
+  font-weight: bold;
+  color: #463265;
+}
+
+#tabs li.analysis_genomic.analysis_tab.ui-state-active a {
+  font-weight: bold;
+  color: #1b809e;
+}
+
+/*customize style*/
+.navbar-inverse{
+    background-image: linear-gradient(to bottom,#004b80 0,#004b80 100%);
+    background-color: #004b80;
+    border-color: #004b80;
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #008080;
+}
+
+.panel-success {
+    border-color: #00385c;
+}
+
+.panel-success>.panel-heading{
+    background-image: linear-gradient(to bottom,#00385c 0,#00385c 100%);
+    border-color: #00385c;
+    color: #ffffff;
+}
+.panel-success>.panel-heading>h3.panel-title{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.panel-info>.panel-heading{
+    background-image: linear-gradient(to bottom,#76a7ce 0,#76a7ce 100%);
+    border-color: #76a7ce;
+    color: #ffffff;
+}
+.panel-info>.panel-heading>h3.panel-title{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.btn-danger{
+    background-image: linear-gradient(to bottom,#800000 0,#800000 100%);
+    background-color: #800000;
+    border:1px solid #800000;
+}
+.btn-primary{
+    background-image: linear-gradient(to bottom,#003f7d 0,#003f7d 100%);
+    background-color: #003f7d;
+    border:1px solid #003f7d;
+}
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active .btn-primary:visited{
+    background-color: #003f7d;
+    border:1px solid #003f7d;
+    background-position: 0;
+}
+.jumbotron{
+    background-color: #ffffff;
+    border: 1px solid #800000;
+}
+
+.bs-callout-warning{
+    border-left-color: #463265;
+}
